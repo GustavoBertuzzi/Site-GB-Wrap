@@ -71,7 +71,7 @@ h2 {
   z-index: -1000;
 }
 
-#clinic,
+#shop-cv,
 #duvidas,
 footer {
   display: flex;
@@ -80,7 +80,7 @@ footer {
   padding: 64px 80px;
 }
 
-#clinic li {
+#shop-cv li {
   margin-bottom: 16px;
   margin-left: 32px;
 }
