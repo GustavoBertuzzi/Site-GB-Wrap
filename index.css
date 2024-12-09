@@ -182,3 +182,26 @@ footer p a {
 #copyright a {
   color: #16002f;
 }
+
+.portifolio-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.portifolio-gallery img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#form-contato {
+  display: grid;
+  width: 297px;
+  min-width: max-content;
+  padding: 30px;
+
+  label {
+    margin: 10px;
+  }
+}
