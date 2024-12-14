@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato - Creative Solutions</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/formContato.css">
 </head>
 <body>
     <header>
         <a href="index.html">
-            <img src="../assets/images-loja/logo_cv_small.png" alt="CV logo">
+            <img src="../assets/logo_sfundo.png" alt="CV logo">
         </a>
         <nav>
             <a href="index.html">Home</a>
@@ -17,6 +18,7 @@
             <a href="portifolio.html">Portfólio</a>
             <a href="contato.html">Contato</a>
         </nav>
+        <button class="toggle-button" onclick="toggleScheme()"><img src="/assets/5262027.png" alt=""></button>
     </header>
     <main>
         <section id="form-contato">
@@ -38,15 +40,6 @@
     <footer>
         <p>&copy; 2024 Creative Solutions. Todos os direitos reservados.</p>
     </footer>
-    <script>
-        const form = document.getElementById('contact-form');
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const name = document.getElementById('name').value;
-            const email = document.getElementById('email').value;
-            const message = document.getElementById('message').value;
-            window.location.href = `mailto:contato@creative.com?subject=Contato de ${name}&body=${message} (Email: ${email})`;
-        });
-    </script>
+    <script src="./js/index.js"></script>
 </body>
 </html>

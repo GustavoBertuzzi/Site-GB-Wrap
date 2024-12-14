@@ -3,13 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serviços - Creative Solutions</title>
+    <title>Formulário com ViaCEP</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/formCep.css">
+    <script>
+        
+    </script>
 </head>
 <body>
     <header>
         <a href="index.html">
-            <img src="../assets/images-loja/logo_cv_small.png" alt="CV logo">
+            <img src="../assets/logo_sfundo.png" alt="CV logo">
         </a>
         <nav>
             <a href="index.html">Home</a>
@@ -17,23 +21,35 @@
             <a href="portifolio.html">Portfólio</a>
             <a href="contato.html">Contato</a>
         </nav>
+        <button class="toggle-button" onclick="toggleScheme()"><img src="/assets/5262027.png" alt=""></button>
     </header>
     <main>
         <section>
-            <h1>Serviços</h1>
-            <p class="paragraph">Confira os serviços que oferecemos:</p>
-            <ul>
-                <li>Envelopamento de veículos</li>
-                <li>Personalização de objetos</li>
-                <li>Decorações com vinil</li>
-                <li>Adesivação comercial</li>
-                <li>Revestimentos de móveis</li>
-                <li>Consultoria em design personalizado</li>
-            </ul>
+            <h1>Veja se atendemos sua região!!</h1>
+            <form id="form-endereco">
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" maxlength="9" onblur="onCepBlur(event)" placeholder="Digite seu CEP">
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" readonly>
+
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" name="bairro" readonly>
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" readonly>
+
+                <label for="estado">Estado:</label>
+                <input type="text" id="estado" name="estado" readonly>
+
+                <p id="mensagem" style="display: none; margin-top: 10px; font-weight: bold;"></p>
+            </form>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Creative Solutions. Todos os direitos reservados.</p>
     </footer>
+
+    <script src="./js/index.js"></script>
 </body>
 </html>

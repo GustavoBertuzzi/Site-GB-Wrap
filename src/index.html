@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Creative Vizualizer</title>  
@@ -12,7 +13,7 @@
     <body>
         <header>
             <a href="index.html">
-                <img src="../assets/images-loja/logo_cv_small.png" alt="CV logo">
+                <img src="../assets/logo_sfundo.png" alt="CV logo">
             </a>
 
             <nav> 
@@ -21,13 +22,12 @@
                 <a href="portifolio.html">Portfólio</a>
                 <a href="contato.html">Contato</a>
             </nav>
-            
+            <button class="toggle-button" onclick="toggleScheme()"><img src="/assets/5262027.png" alt=""></button>
         </header>
 
         <main>
             <section id="home">
-                
-                <img src="../assets/images-loja/logo_cv_sem_fundo.png" alt="" width="580" height="580">
+                <img id="main-logo" class="logo" src="../assets/images-loja/logo_cv_sem_fundo.png" alt="" width="580" height="580">
 
                 <div>
                     <h1>Frase de efeito</h1>
@@ -36,14 +36,13 @@
                     <a class="button-transparent" href="contato.html">Contatos</a>
                 </div>
 
-                <img class="absolute" src="../assets/images-loja/shape.png" alt="">
+                <img class="absolute" id="shape-image" src="../assets/images-loja/shape.png" alt="">
             </section>
 
             <section id="shop-cv">
                 <div>
                     <h2>Quais serviços fazemos</h2>
-                    <p class="paragraph">Explicar um pouco do serviço
-                    </p>
+                    <p class="paragraph">Explicar um pouco do serviço</p>
                     <ul>
                         <li>serviço 1</li>
                         <li>serviço 2</li>
@@ -62,7 +61,6 @@
                         <img class="img-e" src="../assets/images-loja/carrossel-5.png" alt="img-5">
                     </div>
                 </div>
-                <!-- <img src="../assets/images-loja/carro_foto.png" alt="" width="480" height="480" loading="lazy"> -->
             </section>
             
             <section id="duvidas">
@@ -74,29 +72,22 @@
                     <div class="duvida">
                         <h3>Duvida 1?</h3>
                         <img height="10" width="17" src="../assets/images-loja/arrow-down.png" alt="">
-                        <p class="paragraph">Resposta 1.
-                        </p>
+                        <p class="paragraph">Resposta 1.</p>
                     </div>
                     <div class="duvida">
                         <h3>Duvida 2?</h3>
                         <img height="10" width="17" src="../assets/images-loja/arrow-down.png" alt="">
-                        <p class="paragraph">
-                            Resposta 2
-                        </p>
+                        <p class="paragraph">Resposta 2</p>
                     </div>
                     <div class="duvida">
                         <h3>Duvida 3?</h3>
                         <img height="10" width="17" src="../assets/images-loja/arrow-down.png" alt="">
-                        <p class="paragraph">
-                            Resposta 3
-                        </p>
+                        <p class="paragraph">Resposta 3</p>
                     </div>
                     <div class="duvida">
                         <h3>Duvida 4?</h3>
                         <img height="10" width="17" src="../assets/images-loja/arrow-down.png" alt="">
-                        <p class="paragraph">
-                            Resposta 4
-                        </p>
+                        <p class="paragraph">Resposta 4</p>
                     </div>
                 </div>
             </section>
@@ -104,7 +95,7 @@
 
         <footer id="footer">
             <div>
-                <img src="../assets/images-loja/logo_cv_small.png" alt="logo">
+                <img class="logo" src="../assets/images-loja/logo_cv_small.png" alt="logo">
                 <p class="paragraph">Frase de efeito</p>
             </div>
 
@@ -125,8 +116,7 @@
             </div>            
         </footer>
         <div id="copyright">
-            "Developed by <a href="https://github.com/CamileLFM" target="_blank">@CamileLFM</a>
-             ."
+            "Developed by <a href="https://github.com/CamileLFM" target="_blank">@CamileLFM</a>."
         </div>
 
         <script src="./js/index.js"></script>
