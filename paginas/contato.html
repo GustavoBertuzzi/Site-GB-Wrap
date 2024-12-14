@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Creative Solutions</title>
+    <title>Contato - Creative Solutions</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/formContato.css">
 </head>
 <body>
     <header>
@@ -12,7 +13,7 @@
             <img src="../assets/logo_sfundo.png" alt="CV logo">
         </a>
         <nav>
-            <a href="index.html">Home</a>
+            <a href="../index.html">Home</a>
             <a href="servicos.html">Serviços</a>
             <a href="portifolio.html">Portfólio</a>
             <a href="contato.html">Contato</a>
@@ -20,21 +21,25 @@
         <button class="toggle-button" onclick="toggleScheme()"><img src="/assets/5262027.png" alt=""></button>
     </header>
     <main>
-        <section>
-            <h1>Portfólio</h1>
-            <p class="paragraph">Confira alguns dos nossos trabalhos:</p>
-            <div class="portifolio-gallery">
-                <img src="../assets/images-loja/trabalho1.png" alt="Trabalho 1">
-                <img src="../assets/images-loja/trabalho2.png" alt="Trabalho 2">
-                <img src="../assets/images-loja/trabalho3.png" alt="Trabalho 3">
-                <img src="../assets/images-loja/trabalho4.png" alt="Trabalho 4">
-            </div>
+        <section id="form-contato"  action="https://formsubmit.co/camilemacedo1600@gmail.com" method="POST">
+            <h1>Contato</h1>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Creative Solutions. Todos os direitos reservados.</p>
     </footer>
-
     <script src="./js/index.js"></script>
 </body>
 </html>
