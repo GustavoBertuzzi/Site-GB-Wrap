@@ -4,7 +4,8 @@ Especializado em envelopamento decorativo, a **GB Envelopamentos** transforma am
 
 ## 🔹 Sobre o Site  
 Nosso site foi desenvolvido para apresentar nosso portfólio de serviços, facilitar o contato com clientes e permitir a verificação rápida de atendimento por região, através do CEP.  
-
+![home](screenshots/home_1.png)
+![home](screenshots/home_2.png)
 ## 🛠️ Funcionalidades  
 - 📸 **Portfólio** – Veja exemplos reais dos nossos projetos de envelopamento decorativo.
 ![Exemplo de projetos](screenshots/portfólio.png)
