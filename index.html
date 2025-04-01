@@ -1,132 +1,159 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Creative Vizualizer</title>  
-        <meta name="description" content="Make sure your beloved pet enjoys a long and joyful life.">
-        
-        <link rel="stylesheet" href="../css/styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-    </head>
+  <head>
+    <title>Home</title>
+    <meta
+      name="description"
+      content="Make sure your beloved pet enjoys a long and joyful life."
+    />
 
-    <body>
-        <header>
-            <a href="index.html">
-                <img src="./assets/logo_sfundo.png" alt="CV logo">
-            </a>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-            <nav> 
-                <a href="index.html">Home</a>
-                <a href="./paginas/servicos.html">Serviços</a>
-                <a href="./paginas/portifolio.html">Portfólio</a>
-                <a href="./paginas/contato.html">Contato</a>
-                <a href="./paginas/sobre.html">Sobre Nós</a>
-            </nav>
-            <button class="toggle-button" onclick="toggleScheme()"><img src="../assets/5262027.png" alt=""></button>
-        </header>
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          class="logohe"
+          src="./imagens/LOGO GB WRAP - AZUL.png"
+          alt="GB logo"
+        />
+      </a>
 
-        <main>
-            <section id="home">
-                <img id="main-logo" class="logo" src="./imagens/logo_cv_sem_fundo.png" alt="" width="580" height="580">
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="./paginas/servicos.html">Serviços</a>
+        <a href="./paginas/portifolio.html">Portfólio</a>
+        <a href="./paginas/contato.html">Contato</a>
+        <a href="./paginas/software.html">Software</a>
+      </nav>
+      <button class="toggle-button" onclick="toggleScheme()">
+        <img src="../assets/5262027.png" alt="" />
+      </button>
+    </header>
 
-                <div>
-                    <h1>Frase de efeito</h1>
-                    <p class="paragraph">Chamar a atenção</p>
-                    <a class="button" href="https://wa.me/5511998116279" target="_blank">Falar com atendente</a>
-                    <a class="button-transparent" href="contato.html">Contatos</a>
-                </div>
+    <main>
+      <section id="home">
+        <img
+          id="main-logo"
+          class="logo"
+          src="./imagens/LOGO GB WRAP - AZUL.png"
+          alt=""
+          width="300"
+          height="300"
+        />
 
-                <img class="absolute" src="./imagens/shape.png" alt="">
-            </section>
-
-            <section id="shop-cv">
-                <div>
-                    <h2>Quais serviços fazemos</h2>
-                    <p class="paragraph">Explicar um pouco do serviço</p>
-                    <ul>
-                        <li>serviço 1</li>
-                        <li>serviço 2</li>
-                        <li>serviço 3</li>
-                        <li>serviço 4</li>
-                        <li>serviço 5</li>
-                        <li>serviço 6</li>
-                    </ul>
-                </div>
-                <div class="carrossel">
-                    <div class="container" id="img-div">
-                        <img class="img-e" src="./imagens/carrossel-1.png" alt="img-1">
-                        <img class="img-e" src="./imagens/carrossel-2.png" alt="img-2">
-                        <img class="img-e" src="./imagens/carrossel-3.png" alt="img-3">
-                        <img class="img-e" src="./imagens/carrossel-4.png" alt="img-4">
-                        <img class="img-e" src="./imagens/carrossel-5.png" alt="img-5">
-                    </div>
-                </div>
-            </section>
-            
-            <section id="duvidas">
-                <img src="./imagens/duvida.png" alt="" width="540" height="540" loading="lazy">
-                
-                <div>
-                    <h2>Do you have any questions remaining?</h2>
-
-                    <div class="duvida">
-                        <h3>Duvida 1?</h3>
-                        <img height="10" width="17" src="./imagens/arrow-down.png" alt="">
-                        <p class="paragraph">Resposta 1.
-                        </p>
-                    </div>
-                    <div class="duvida">
-                        <h3>Duvida 2?</h3>
-                        <img height="10" width="17" src="./imagens/arrow-down.png" alt="">
-                        <p class="paragraph">
-                            Resposta 2
-                        </p>
-                    </div>
-                    <div class="duvida">
-                        <h3>Duvida 3?</h3>
-                        <img height="10" width="17" src="./imagens/arrow-down.png" alt="">
-                        <p class="paragraph">
-                            Resposta 3
-                        </p>
-                    </div>
-                    <div class="duvida">
-                        <h3>Duvida 4?</h3>
-                        <img height="10" width="17" src="./imagens/arrow-down.png" alt="">
-                        <p class="paragraph">
-                            Resposta 4
-                        </p>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer id="footer">
-            <div>
-                <img src="./imagens/logo_cv_small.png" alt="logo">
-                <p class="paragraph">Frase de efeito</p>
-            </div>
-
-            <div>
-                <strong class="title">Links Rápidos</strong>
-                <nav> 
-                    <a href="#home">Home</a>
-                    <a href="#shop-cv">Sobre</a>
-                    <a href="#duvidas">Dúvidas</a>
-                </nav>
-            </div>
-
-            <div>
-                <strong class="title">Find us</strong>
-                <p>WhatsApp: <a href="https://wa.me/5511998116279" target="_blank">(11) 9 9811-6279</a></p>
-                <p>Email: <a href="mailto:camile@cv.com.br" target="_blank">camile@cv.com.br</a></p>
-                <p>Address: Av. Example, nº40, Centro</p>
-            </div>            
-        </footer>
-        <div id="copyright">
-            "Developed by <a href="https://github.com/CamileLFM" target="_blank">@CamileLFM</a>."
+        <div>
+          <h1>Estilo, proteção e exclusividade em cada detalhe.</h1>
+          <a class="button" href="https://wa.me/5511998116279" target="_blank"
+            >Faça o seu orçamento</a
+          >
+          <a class="button-transparent" href="contato.html">Contatos</a>
         </div>
 
-        <script src="./scripts/script.js"></script>
-    </body>
+        <img class="absolute" src="./imagens/shape.png" alt="" />
+      </section>
+
+      <section id="shop-cv">
+        <div>
+          <h2>Quais serviços fazemos</h2>
+          <p class="paragraph">
+            A GB Envelopamentos Decor é especializada em envelopamento
+            decorativo residencial e corporativo, transformando ambientes com
+            sofisticação e qualidade. Nossa missão é revitalizar espaços com uma
+            estética moderna e personalizada, utilizando materiais premium que
+            garantem durabilidade e um acabamento impecável. Atendemos tanto
+            residências quanto ambientes corporativos, sempre com um olhar
+            cuidadoso para as necessidades e o estilo de cada cliente. Na GB
+            Wrap Decor, cada projeto é conduzido com profissionalismo e atenção
+            aos detalhes, criando ambientes únicos e elegantes que refletem a
+            personalidade e a funcionalidade desejada.
+          </p>
+
+          <ul>
+            <li>Envelopamento de paredes</li>
+            <li>Envelopamento de teto</li>
+            <li>Envelopamento de móveis</li>
+            <li>Ares-condicionados</li>
+          </ul>
+        </div>
+        <div class="carrossel">
+          <div class="container" id="img-div">
+            <img class="img-e" src="./imagens/carrossel-1.jpeg" alt="img-1" />
+            <img class="img-e" src="./imagens/carrossel-2.jpeg" alt="img-2" />
+            <img class="img-e" src="./imagens/carrossel-3.jpeg" alt="img-3" />
+            <img class="img-e" src="./imagens/carrossel-4.jpeg" alt="img-4" />
+            <img class="img-e" src="./imagens/carrossel-5.jpeg" alt="img-5" />
+            <img class="img-e" src="./imagens/carrossel-6.jpeg" alt="img-6" />
+            <img class="img-e" src="./imagens/carrossel-7.jpeg" alt="img-7" />
+            <img class="img-e" src="./imagens/carrossel-8.jpeg" alt="img-8" />
+            <img class="img-e" src="./imagens/carrossel-9.jpeg" alt="img-9" />
+            <img class="img-e" src="./imagens/carrossel-10.jpeg" alt="img-10" />
+          </div>
+        </div>
+      </section>
+
+      <section id="duvidas">
+        <div>
+          <h2>Duvidas frequentes</h2>
+
+          <div class="duvida">
+            <h3>Qual a durabilidade do Envelopamento?</h3>
+            <img height="10" width="17" src="./imagens/arrow-down.png" alt="" />
+            <p class="paragraph">
+              A durabilidade dos adesivos varia conforme os cuidados e exposição
+              à intempéries. Em ficha técnica, o adesivo dura até 8 anos. Em um
+              cenário onde o adesivo não vai ficar exposto e não receber muito
+              contato, igual em uma parede por exemplo, imagino uma durabilidade
+              superior à 8 anos.
+            </p>
+          </div>
+          <div class="duvida">
+            <h3>Quais cuidados preciso ter?</h3>
+            <img height="10" width="17" src="./imagens/arrow-down.png" alt="" />
+            <p class="paragraph">
+              Antes de aplicar o adesivo: Recomendamos que a superfície esteja
+              limpa, lisa e livre de infiltrações. Após a aplicação: O adesivo é
+              resistente e impermeável, mas recomendamos evitar atritos que
+              possam rasgá-lo ou cortá-lo. Ele não impregna sujeira, e a limpeza
+              pode ser feita facilmente com um pano úmido, sem risco de danos.
+            </p>
+          </div>
+          <div class="duvida">
+            <h3>Quais os benefícios de envelopar?</h3>
+            <img height="10" width="17" src="./imagens/arrow-down.png" alt="" />
+            <p class="paragraph">
+              O envelopamento decorativo pode ter um custo inicial mais alto que
+              a pintura por exemplo, mas compensa pela durabilidade superior e
+              pelo acabamento sofisticado. Além de oferecer um visual mais
+              moderno e personalizado, o adesivo protege a superfície, é de
+              fácil manutenção e evita retoques frequentes, garantindo um
+              investimento que vale a pena a longo prazo.
+            </p>
+          </div>
+          <div class="duvida">
+            <h3>Demora muito para instalar? Suja muito o ambiente?</h3>
+            <img height="10" width="17" src="./imagens/arrow-down.png" alt="" />
+            <p class="paragraph">
+              O envelopamento decorativo é instalado de forma rápida e prática,
+              dependendo da área aplicada. Diferente da pintura, ele não faz
+              sujeira, não deixa cheiro forte e o ambiente pode ser usado
+              imediatamente após a aplicação, tornando-se uma opção muito mais
+              conveniente.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 GB Wrap. Todos os direitos reservados.</p>
+    </footer>
+    <script src="./scripts/script.js"></script>
+  </body>
 </html>

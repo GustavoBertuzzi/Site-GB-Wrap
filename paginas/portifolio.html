@@ -1,41 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Creative Solutions</title>
-    <link rel="stylesheet" href="../css/styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
     <header>
-        <a href="index.html">
-            <img src="./assets/logo_sfundo.png" alt="CV logo">
-        </a>
-        <nav>
-            <a href="../index.html">Home</a>
-            <a href="servicos.html">Serviços</a>
-            <a href="portifolio.html">Portfólio</a>
-            <a href="contato.html">Contato</a>
-            <a href="sobre.html">Sobre Nós</a>
-        </nav>
-        <button class="toggle-button" onclick="toggleScheme()"><img src="/assets/5262027.png" alt=""></button>
+      <a href="index.html">
+        <img
+          class="logohe"
+          src="/imagens/LOGO GB WRAP - AZUL.png"
+          alt="CV logo"
+        />
+      </a>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="portifolio.html" class="active">Portfólio</a>
+        <a href="contato.html">Contato</a>
+        <a href="software.html">Software</a>
+      </nav>
+      <button class="toggle-button" onclick="toggleScheme()">
+        <img src="/assets/5262027.png" alt="" />
+      </button>
     </header>
     <main>
-        <section>
-            <h1>Portfólio</h1>
-            <p class="paragraph">Confira alguns dos nossos trabalhos:</p>
-            <div class="portifolio-gallery">
-                <img src="./imagens/trabalho1.png" alt="Trabalho 1">
-                <img src="./imagens/trabalho2.png" alt="Trabalho 2">
-                <img src="./imagens/trabalho3.png" alt="Trabalho 3">
-                <img src="./imagens/trabalho4.png" alt="Trabalho 4">
-            </div>
-        </section>
+      <section>
+        <h1>Portfólio</h1>
+        <h2 class="paragraph">Confira alguns dos nossos trabalhos:</h2>
+
+        <div class="portifolio-gallery">
+          <img
+            src="../imagens/AD PAINEL.jpg"
+            alt="Trabalho 1"
+            width="300"
+            height="700"
+          />
+          <img
+            src="../imagens/AD RIP.jpg"
+            alt="Trabalho 2"
+            width="300"
+            height="700"
+          />
+          <img
+            src="../imagens/AD BALC.png"
+            alt="Trabalho 3"
+            width="300"
+            height="700"
+          />
+          <img
+            src="../imagens/AD AR.jpg"
+            alt="Trabalho 4"
+            width="300"
+            height="700"
+          />
+        </div>
+      </section>
     </main>
     <footer>
-        <p>&copy; 2024 Creative Solutions. Todos os direitos reservados.</p>
+      <p>&copy; 2024 GB Wrap. Todos os direitos reservados.</p>
     </footer>
 
     <script src="../scripts/script.js"></script>
-</body>
+  </body>
 </html>

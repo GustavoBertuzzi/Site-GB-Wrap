@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   transition: background-color 0.3s, color 0.3s;
 }
 
@@ -21,37 +21,34 @@ body.dark {
   color: #ffffff;
 }
 
-.display-off{
+.display-off {
   display: none;
 }
 
 .toggle-button {
   display: flex;
-  
   padding: 10px 20px;
   cursor: pointer;
   border: none;
   border-radius: 5px;
   z-index: 1000;
-  
 }
 
-button img{
+button img {
   width: 30px;
   height: 30px;
 }
 
-
 header {
-  background-color: #16002f;
+  background-color: #001331;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 2rem;
   height: 100px;
+  box-sizing: border-box;
+  width: 100%;
+  position: relative;
 }
 
 header a {
@@ -61,7 +58,7 @@ header a {
   text-decoration: none;
 }
 
-header a img{
+header a img {
   width: 130px;
 }
 
@@ -70,6 +67,8 @@ header a img{
   align-items: center;
   gap: 25px;
   position: relative;
+  padding-top: 90px;
+  padding-left: 200px;
 }
 
 h1,
@@ -80,12 +79,13 @@ h2 {
 }
 
 .paragraph {
-  line-height: 150%;
+  max-height: none; /* ALTERAÇÃO: removi a altura fixa */
+  line-height: 1.6; /* ALTERAÇÃO: ajuste para 1.6 */
   margin-bottom: 32px;
 }
 
 .button {
-  background-color: #7d3eff;
+  background-color: #1a5f7a;
   border-radius: 8px;
   color: #ffffff;
   padding: 16px 32px;
@@ -94,7 +94,7 @@ h2 {
 
 .button-transparent {
   background-color: transparent;
-  color: #d6c2ff;
+  color: #00a9ff;
   padding: 16px 32px;
   text-underline-offset: 4px;
   text-underline-offset: 6px;
@@ -121,12 +121,13 @@ footer {
 #shop-cv li {
   margin-bottom: 16px;
   margin-left: 32px;
+  padding-left: 0.5rem; /* ALTERAÇÃO: recuo para marcadores */
 }
 
 #pharmacy {
   padding: 64px, 80px;
   text-align: center;
-  background-color: #7d3eff;
+  background-color: #1a5f7a;
   padding-top: 80px;
   padding-bottom: 80px;
 }
@@ -142,10 +143,11 @@ footer {
 
 .duvida {
   position: relative;
+  width: 800px;
 }
 
 .duvida h3 {
-  border: 2px solid #16002f;
+  border: 2px solid #001331;
   border-radius: 8px;
   cursor: pointer;
   padding: 24px;
@@ -158,9 +160,9 @@ footer {
 }
 
 .duvida p {
-  border-right: 1px solid #16002f;
-  border-bottom: 1px solid #16002f;
-  border-left: 1px solid #16002f;
+  border-right: 1px solid #001331;
+  border-bottom: 1px solid #001331;
+  border-left: 1px solid #001331;
   border-radius: 0 0 8px 8px;
   margin-top: -8px;
   padding: 0 24px;
@@ -171,7 +173,7 @@ footer {
 }
 
 .duvida.ativa p {
-  height: 120px;
+  height: 150px;
   opacity: 1;
   padding: 24px;
 }
@@ -181,33 +183,14 @@ footer {
 }
 
 footer {
-  background-color: rgb(163 108 255 / 25%);
+  background-color: rgba(5, 4, 70, 0.25);
   justify-content: space-between;
 }
 
-footer img,
-footer .title {
-  display: block;
-  font-weight: 600;
-  margin-bottom: 24px;
-}
-
-footer nav a {
-  color: #263138;
-  display: block;
-  margin-bottom: 16px;
-  text-decoration: none;
-  max-width: 350px;
-}
-
-footer p {
-  margin-bottom: 16px;
-  max-width: 350px;
-}
-
-footer p a {
-  color: #16002f;
-  text-decoration: none;
+.logohe {
+  max-height: 80px;
+  width: auto;
+  object-fit: contain;
 }
 
 #copyright {
@@ -218,7 +201,7 @@ footer p a {
 }
 
 #copyright a {
-  color: #16002f;
+  color: #001331;
 }
 
 .portifolio-gallery {
@@ -238,17 +221,17 @@ footer p a {
   width: 297px;
   min-width: max-content;
   padding: 30px;
+}
 
-  label {
-    margin: 10px;
-  }
+#form-contato label {
+  margin: 10px;
 }
 
 .carrossel {
   overflow: hidden;
   width: 580px;
   height: 580px;
-  border: 1px solid #f1e8fe;
+  border: 1px solid #b3e0ff;
   border-radius: 1rem;
 }
 
@@ -256,10 +239,129 @@ footer p a {
   display: flex;
   transition: transform 0.5s ease-in-out;
   transform: translateX(0);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .img-e {
   object-fit: cover;
   width: 580px;
   height: 580px;
+}
+
+/* [Todo o seu CSS original permanece aqui] */
+
+/* APENAS ESTE BLOCO FOI ADICIONADO */
+#shop-cv > div {
+  max-width: 600px;
+}
+
+#shop-cv .paragraph {
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+}
+
+#shop-cv ul {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+#shop-cv li {
+  margin-bottom: 0.8rem;
+  padding-left: 0.5rem;
+  margin-left: 1rem;
+}
+
+/* Estilo para a seção de verificação de região */
+.formregiao {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat", sans-serif;
+}
+
+.formregiao h2 {
+  color: #1a5f7a;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.formregiao .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.formregiao label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.formregiao input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #b3e0ff;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.formregiao input:focus {
+  border-color: #1a5f7a;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(26, 95, 122, 0.2);
+}
+
+.formregiao .cep-input {
+  position: relative;
+}
+
+.formregiao .cep-input input {
+  padding-left: 40px;
+}
+
+.formregiao .cep-input::before {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .formregiao {
+    padding: 1.5rem;
+    margin: 1rem;
+  }
+
+  .formregiao h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Dark mode adaptation */
+body.dark .formregiao {
+  background-color: #1e293b;
+  color: #f8fafc;
+}
+
+body.dark .formregiao label {
+  color: #f8fafc;
+}
+
+body.dark .formregiao input {
+  background-color: #334155;
+  border-color: #475569;
+  color: #f8fafc;
+}
+
+body.dark .formregiao footer {
+  color: #94a3b8;
+  border-top-color: #334155;
 }
