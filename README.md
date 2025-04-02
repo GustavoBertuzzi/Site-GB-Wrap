@@ -4,14 +4,19 @@ Especializado em envelopamento decorativo, a **GB Envelopamentos** transforma am
 
 ## 🔹 Sobre o Site  
 Nosso site foi desenvolvido para apresentar nosso portfólio de serviços, facilitar o contato com clientes e permitir a verificação rápida de atendimento por região, através do CEP.  
-
+![home](screenshots/home%201.png)
+![home](screenshots/home%202.png)
 ## 🛠️ Funcionalidades  
-- 📸 **Portfólio** – Veja exemplos reais dos nossos projetos de envelopamento decorativo.  
-- 📍 **Verificação de Atendimento** – Informe seu CEP e descubra se atendemos sua região.  
+- 📸 **Portfólio** – Veja exemplos reais dos nossos projetos de envelopamento decorativo.
+![Exemplo de projetos](screenshots/portfólio.png)
+- 📍 **Verificação de Atendimento** – Informe seu CEP e descubra se atendemos sua região.
+![Exemplo de verificação](screenshots/cep.png)  
 - 📩 **Fale Conosco** – Entre em contato diretamente pelo site para orçamentos e dúvidas.  
-- **Em desenvolvimento**: Em breve, será disponibilizado um software que permitirá visualizar o resultado de um envelopamento decorativo antes da aplicação. Com ele, será possível fazer o upload de uma imagem (como uma parede ou móvel) e testar diferentes cores e texturas, facilitando a escolha do design ideal.  
-
-## 🚀 Tecnologias Utilizadas  
+![Contatos](screenshots/contato.png)
+- **Em desenvolvimento**: Em breve, será disponibilizado um software que permitirá visualizar o resultado de um envelopamento decorativo antes da aplicação. Com ele, será possível fazer o upload de uma imagem (como uma
+ parede ou móvel) e testar diferentes cores e texturas, facilitando a escolha do design ideal.  
+![software em desenvolvimento](screenshots/software.png)
+## 🚀 Tecnologias Utilizadas 
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** Python (em desenvolvimento)  
 - **Integrações:** Verificação de CEP e envio de e-mails  
