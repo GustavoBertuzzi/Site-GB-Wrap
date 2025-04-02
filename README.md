@@ -14,7 +14,7 @@ Nosso site foi desenvolvido para apresentar nosso portfólio de serviços, facil
 - 📩 **Fale Conosco** – Entre em contato diretamente pelo site para orçamentos e dúvidas.  
 ![Contatos](screenshots/contato.png)
 - **Em desenvolvimento**: Em breve, será disponibilizado um software que permitirá visualizar o resultado de um envelopamento decorativo antes da aplicação. Com ele, será possível fazer o upload de uma imagem (como uma
- parede ou móvel) e testar diferentes cores e texturas, facilitando a escolha do design ideal.  
+ parede, móvel ou carro) e testar diferentes cores e texturas, facilitando a escolha do design ideal.  
 ![software em desenvolvimento](screenshots/Selecionarimg.png)
 ![software em desenvolvimento](screenshots/Aplicartextura.png)
 ![software em desenvolvimento](screenshots/Aplicartextura2.png)
